@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(88 142 248 / 61%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 140px;
+    width: 150px;
+}
+.players{
+display: flex;
+gap: 30px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1{
+    color: rgb(223, 76, 76);
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background: none;
+    font-weight: bolder;
+    background-color: yellow;
+    color: black;
+}
